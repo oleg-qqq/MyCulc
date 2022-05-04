@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="@string/_1"
+        android:textSize="@dimen/key_text_size" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/key_text_size"
+        android:text="@string/_2" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/_3"
+        android:textSize="@dimen/key_text_size" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:textSize="@dimen/key_text_size"
+        android:text="@string/_4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/key_text_size"
+        android:text="@string/_5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:textSize="@dimen/key_text_size"
+        android:text="@string/_6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textSize="@dimen/key_text_size"
+        android:text="@string/_7" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:textSize="@dimen/key_text_size"
+        android:text="@string/_8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:textSize="@dimen/key_text_size"
+        android:text="@string/_9" />
+</FrameLayout>
